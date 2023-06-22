@@ -1,0 +1,19 @@
+{
+  "name": "CanonicalVanillaJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass -w --load-path=node_modules src:dist --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.50.0",
+    "vanilla-framework": "^3.15.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
